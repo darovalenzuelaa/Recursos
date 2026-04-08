@@ -30,4 +30,4 @@ ________
 |que    |importante|
 
 ##imagen
-![JavaScripts](README/absolute-batman.jpg)
+![imagen](absolute-batman.jpg)
