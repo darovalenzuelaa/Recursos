@@ -7,3 +7,5 @@
 [Ciclo For](CICLO_FOR.md)
 
 [While](WHILE.md)
+
+[Funciones](FUNCIONES.md)
