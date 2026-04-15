@@ -9,3 +9,5 @@
 [While](WHILE.md)
 
 [Funciones](FUNCIONES.md)
+
+[Switch Case](SWITCH_CASE.md)
