@@ -30,4 +30,7 @@ Al unirse estos 3 puntos, nace **PROLOG** el cual es un **lenguaje de programaci
 
 **LOS PARADIGMAS NACEN COMBINANDO CONCEPTOS FUNDAMENTALES DE LAS MATEMÁTICAS, LA LÓGICA Y LAS CIENCIAS DE LA COMPUTACIÓN.**
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Yo creo que últimamente al adentrarme en este mundo he podido percibir la lógica de los códigos, ya que, todas funcionan como un todo donde muchas combinaciones pueden sostenerse sin perder sentido o el fin que se busque. Sólo importa el saber usar el lenguaje y todos sus límites pues se pueden crear cosas inmensas utilizando la lógica. Podría mencionar la inteligencia artificial contemporánea donde una persona hace una pregunta y consigue una respuesta, que así de simple y resumido es lo que se logró con estos modelos. Y siento que en cada proceso computacional existe un poco de pregunta-> respuesta basada en la lógica de un lenguaje.
 
