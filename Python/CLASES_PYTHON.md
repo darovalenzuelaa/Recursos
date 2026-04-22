@@ -44,13 +44,11 @@ como accedo a un atributo del personaje? hay que crear la función con el comand
 
 se escribe def, luego el nombre del método y entre paréntesis self agregando el nombre de los atributos, luego se modifican las estadísticas con la suma del valor actual y su incremento
 
-
-
-
-
-
-
-
-
 ```python```
 [personaje](personaje.py)
+
+# Encapsulación
+
+¿cómo se encapsula código en python?
+¿para que se usan los métodos get y set en el código?
+¿se puede acceder a los método o atributos una vez encapsulados? justifique min 3 líneas
