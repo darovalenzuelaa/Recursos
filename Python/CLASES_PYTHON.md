@@ -51,7 +51,11 @@ se escribe def, luego el nombre del método y entre paréntesis self agregando e
 
 ¿cómo se encapsula código en python?
 Un código se encapsula al poner doble guión bajo "__" delante del atributo o del método y así hacer privada o pública una función o métodos
+
 ¿para que se usan los métodos get y set en el código?
 Se usan para acceder o modificar los atributos individualmente pero controlándolos. El "get" devuelve el atributo y "set" recibe uno nuevo para cambiarlo por el actual.
+
 ¿se puede acceder a los método o atributos una vez encapsulados? justifique min 3 líneas
 Sí se puede acceder a los métodos o atributos una vez encapsulados y esto se hace a través de los métodos get o set. Además una vez el atributo se ha convertido en privado con el doble guión bajo, se puede acceder a este utilizando este nuevo nombre, es decir, con el "__". Se usa el nuevo nombre por ejemplo: print(cuenta._CuentaBancaria__pin)
+
+[personaje_encapsulado](personaje_encapsulado.py)
