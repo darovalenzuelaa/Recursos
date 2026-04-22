@@ -53,3 +53,4 @@ se escribe def, luego el nombre del método y entre paréntesis self agregando e
 
 
 ```python```
+[personaje](personaje.py)
