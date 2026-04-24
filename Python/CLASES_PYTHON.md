@@ -82,5 +82,23 @@ La herencia en POO nos permite heredar varias clases a clases nuevas y así comb
 
 ## Polimorfismo
 
-¿para que se usa el polimorfismo?
-¿en el método daño(self, enemigo) que deberíamos hacer en el caso de que la fuerza sea menor a la defensa?
+1. ¿Para qué se usa el polimorfismo?
+Se usa para crear funciones que reciban objetos con métodos que tengan el mismo nombre y así ejecutar acciones diferentes según la clase de ese objeto.
+
+2. ¿En el método daño (self, enemigo) qué deberíamos hacer en el caso de que la fuerza sea menor a la defensa?
+Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle.
+
+## Ejemplo de polimorfismo
+
+class Guitarra():
+    def que_es(self):
+        print("Es una Guitarra")
+
+class Bateria():
+    def que_es(self):
+        print("Es una Batería")
+
+def definicion_instrumento(instrumento):
+    instrumento.que_es()
+
+definicion_instrumento(Guitarra())
