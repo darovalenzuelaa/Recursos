@@ -107,3 +107,31 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
  definicion_instrumento(Guitarra())
 
 ```
+class Pokemon:
+
+    def __init__(self, nombre, tipo, vida, ataque, nivel, xp):
+        self.nombre = nombre
+        self.tipo = tipo
+        self.vida = vida
+        self.ataque = ataque
+        self.__nivel = nivel
+        self.__xp = xp
+
+    def atacar(self, rival):
+        rival.vida -= self.ataque
+
+        if rival.vida <= 0:
+            rival.vida = 0
+            return True
+        return False
+
+pokemon1 = Pokemon("Combusken", "Fuego", 80, 63, 35, 80)
+pokemon2 = Pokemon("Grovyle", "Planta", 70, 60, 34, 80)
+
+pokemon1.atacar(pokemon2)
+pokemon2.atacar(pokemon1)
+
+if pokemon1.vida > pokemon2.vida:
+    print("pokemon1 Ha ganado el combate")
+elif pokemon2.vida > pokemon1.vida:
+    print("pokemon2 Ha ganado el combate")
