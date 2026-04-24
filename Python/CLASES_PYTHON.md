@@ -70,9 +70,15 @@ En caso de añadir un argumento más, este sería el constructor que nos permiti
 
 3. ¿Para qué se usa la instrucción pass en python? investigue
 Se usa cuando python no admite que haya una sentencia que esté pegada al margen tras la definición de una función ya que la función sería como si estuviera vacía y no los tomaría como válidos. Esto nos permitiría seguir adelante con la buena interpretación del código a pesar de tener un error o algo pendiente.
-¿qué es la función integrada super y para que se usa, que beneficio aporta?
-¿en el video se menciona la herencia múltiple a que se refiere?
-¿cuál es el beneficio de aplicar herencia en POO?
+
+4. ¿Qué es la función integrada super y para qué se usa, qué beneficio aporta?
+Nos permite llamar a los atributos y métodos de la super clase sin tener que esciribirla directamente, esto nos permite el no usar "self" ya que viene implícito en el "super".
+
+5. ¿En el video se menciona la herencia múltiple a que se refiere?
+Es cuando se puede heredar los atributos de más de una clase a la vez.
+
+6. ¿Cuál es el beneficio de aplicar herencia en POO?
+La herencia en POO nos permite heredar varias clases a clases nuevas y así combinar nuevos atributos o comportamientos distintos al original. Además con la función "super" podemos acceder a los atributos de la clase base traspasando su funcionalidad a través de las subclases. Por lo tanto se pueden modificar nuevas variables sin perder una estructura clara en el código.
 
 ## Polimorfismo
 
