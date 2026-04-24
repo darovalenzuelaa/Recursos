@@ -1,7 +1,7 @@
-```python```
+# 
 
-creación del constructor
-
+## creación del constructor
+```python
 class Personaje:
 
     def __init__(self, nombre, fuerza, inteligencia, defensa, vida):
@@ -10,6 +10,7 @@ class Personaje:
         self.inteligencia = inteligencia
         self.defensa = defensa
         self.vida = vida
+´´´
 
 que es self? es un argumento que hace referencia a sí mismo, es decir, al objeto y permite tener acceso a los a tributos y métodos de la clase
 
