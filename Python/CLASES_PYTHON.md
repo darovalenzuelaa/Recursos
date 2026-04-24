@@ -44,7 +44,7 @@ como accedo a un atributo del personaje? hay que crear la función con el comand
 
 se escribe def, luego el nombre del método y entre paréntesis self agregando el nombre de los atributos, luego se modifican las estadísticas con la suma del valor actual y su incremento
 
-```python```
+
 [personaje](personaje.py)
 
 # Encapsulación
@@ -90,9 +90,9 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 ## Ejemplo de polimorfismo
 
-``` python ```
+```python```
 
-class Guitarra():
+ class Guitarra():
     def que_es(self):
         print("Es una Guitarra")
 
@@ -105,4 +105,4 @@ def definicion_instrumento(instrumento):
 
 definicion_instrumento(Guitarra())
 
-``` python ```
+```python```
