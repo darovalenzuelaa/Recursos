@@ -92,17 +92,17 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 ```python```
 
- class Guitarra():
-    def que_es(self):
-        print("Es una Guitarra")
+  class Guitarra():
+     def que_es(self):
+         print("Es una Guitarra")
 
-class Bateria():
-    def que_es(self):
-        print("Es una Batería")
+ class Bateria():
+     def que_es(self):
+         print("Es una Batería")
 
-def definicion_instrumento(instrumento):
-    instrumento.que_es()
+ def definicion_instrumento(instrumento):
+     instrumento.que_es()
 
-definicion_instrumento(Guitarra())
+ definicion_instrumento(Guitarra())
 
 ```python```
