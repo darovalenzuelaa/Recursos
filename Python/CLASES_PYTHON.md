@@ -90,6 +90,8 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 ## Ejemplo de polimorfismo
 
+``` python ```
+
 class Guitarra():
     def que_es(self):
         print("Es una Guitarra")
@@ -102,3 +104,5 @@ def definicion_instrumento(instrumento):
     instrumento.que_es()
 
 definicion_instrumento(Guitarra())
+
+``` python ```
