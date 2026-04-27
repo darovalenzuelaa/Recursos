@@ -129,7 +129,7 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 Finalmente se simula el combate usando un ciclo, con el comando "while" el cual se repite hasta que la vida de un pokemon llegue a 0 lo que significaría que el pokemon ha sido derrotado por lo tanto el ciclo se terminaría con el comando "break". Pero es importante recalcar que el ciclo revisa en cada turno si la vida del personaje ha llegado a 0, si no es así se pasaría al siguiente turno, hasta que la vida de algún pokemon llegue a 0.
 
-[Ver código de práctica final](<pokemon>_pokemon.py)
+[Ver código de práctica final](pokemon.py)
 
 
 
