@@ -57,6 +57,8 @@ mi_personaje.atributos()
 
 [personaje](personaje.py)
 
+------------
+
 # Encapsulación
 
 **1. ¿Cómo se encapsula código en python?:**
@@ -69,6 +71,8 @@ Se usan para acceder o modificar los atributos individualmente pero controlándo
 Sí se puede acceder a los métodos o atributos una vez encapsulados y esto se hace a través de los métodos get o set. Además una vez el atributo se ha convertido en privado con el doble guión bajo, se puede acceder a este utilizando este nuevo nombre, es decir, con el "__". Se usa el nuevo nombre por ejemplo: print(cuenta._CuentaBancaria__pin)
 
 [personaje_encapsulado](personaje_encapsulado.py)
+
+------------
 
 ## Herencia
 
@@ -89,6 +93,8 @@ Es cuando se puede heredar los atributos de más de una clase a la vez.
 
 **6. ¿Cuál es el beneficio de aplicar herencia en POO?**
 La herencia en POO nos permite heredar varias clases a clases nuevas y así combinar nuevos atributos o comportamientos distintos al original. Además con la función "super" podemos acceder a los atributos de la clase base traspasando su funcionalidad a través de las subclases. Por lo tanto se pueden modificar nuevas variables sin perder una estructura clara en el código.
+
+------------
 
 ## Polimorfismo
 
@@ -115,6 +121,7 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
  definicion_instrumento(Guitarra())
 ```
+------------
 
 ## Proyecto Final: [Pokemon].
 
@@ -130,6 +137,8 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 **5. Experiencia:** Es el atributo que nos permite subir de nivel y además es un atributo privado. Y funciona a través de un getter y un setter.
 
+
+
 **En lo que respecta a los métodos el primero estos son:**
 
 **1. Atacar:** Aquí se define el pokemon que ataca y el pokemon que recibe el daño (self, enemigo) respectivamente. Basícamente se le resta a la vida el daño de ataque del rival. Y se usa un if para que la vida llegue a 0 y no quede en numeros negativos. Luego simplemente se verbaliza lo ocurrido a través de un print.
@@ -142,11 +151,9 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 Finalmente se simula el combate usando un ciclo, con el comando "while" el cual se repite hasta que la vida de un pokemon llegue a 0 lo que significaría que el pokemon ha sido derrotado por lo tanto el ciclo se terminaría con el comando "break". Pero es importante recalcar que el ciclo revisa en cada turno si la vida del personaje ha llegado a 0, si no es así se pasaría al siguiente turno, hasta que la vida de algún pokemon llegue a 0.
 
+------------
+
 [Ver código de práctica final](pokemon.py)
-
-
-
-
 
 
 
