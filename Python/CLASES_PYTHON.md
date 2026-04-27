@@ -120,21 +120,25 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 
 **Esta clase está basada en el estilo de combate del videojuego Pokemon y lo elegí ya que de por sí ya tiene atributos que se pueden deducir fácilmente, y los que elegí son:**
 
-1. Nombre: Los cuales serían "Combusken", el cual al ser el Pokemon que ganará el combate por tener mas ataque que el rival terminaría evolucionando a "Combusken" ya que al ganar el combate ganará experiencia que lo hará evolucionar.
-2. Vida: Un atributo importante porque al acabarse la vida de un pokemon, este sería derrotado, de la misma forma, el otro pokemon sería vencedor lo que le permitirá ganar experiencia al ganar el combate.
-3. Ataque: Este atributo es vital puesto hará que la vida le baje al rival en cada turno.
-4. Nivel: El subir nivel tras ganar el combate hará que el pokemon evolucione, y el nivel esta puesto al nivel 35, por lo tanto al igual que en el juego real, el pokemon Combusken evolucionará al nivel 36 a Blaziken.
-5. Experiencia: Es el atributo que nos permite subir de nivel y además es un atributo privado. Y funciona a través de un getter y un setter.
+**1. Nombre:** Los cuales serían "Combusken", el cual al ser el Pokemon que ganará el combate por tener mas ataque que el rival terminaría evolucionando a "Combusken" ya que al ganar el combate ganará experiencia que lo hará evolucionar.
+
+**2. Vida:** Un atributo importante porque al acabarse la vida de un pokemon, este sería derrotado, de la misma forma, el otro pokemon sería vencedor lo que le permitirá ganar experiencia al ganar el combate.
+
+**3. Ataque:** Este atributo es vital puesto hará que la vida le baje al rival en cada turno.
+
+**4. Nivel:** El subir nivel tras ganar el combate hará que el pokemon evolucione, y el nivel esta puesto al nivel 35, por lo tanto al igual que en el juego real, el pokemon Combusken evolucionará al nivel 36 a Blaziken.
+
+**5. Experiencia:** Es el atributo que nos permite subir de nivel y además es un atributo privado. Y funciona a través de un getter y un setter.
 
 **En lo que respecta a los métodos el primero estos son:**
 
-1. Atacar: Aquí se define el pokemon que ataca y el pokemon que recibe el daño (self, enemigo) respectivamente. Basícamente se le resta a la vida el daño de ataque del rival. Y se usa un if para que la vida llegue a 0 y no quede en numeros negativos. Luego simplemente se verbaliza lo ocurrido a través de un print.
+**1. Atacar:** Aquí se define el pokemon que ataca y el pokemon que recibe el daño (self, enemigo) respectivamente. Basícamente se le resta a la vida el daño de ataque del rival. Y se usa un if para que la vida llegue a 0 y no quede en numeros negativos. Luego simplemente se verbaliza lo ocurrido a través de un print.
 
-2. Ganar Experiencia: Aquí se define que un personaje pueda ganar 100 de experiencia, y si llega a 100, este pokemon sube de nivel.
+**2. Ganar Experiencia:** Aquí se define que un personaje pueda ganar 100 de experiencia, y si llega a 100, este pokemon sube de nivel.
 
-3. Subir Nivel: Esto sirve para sumar 1 nivel, lo que nos haría llegar al nivel 36 para evolucionar. Además nos sumaría estadísticas en los atributos vida y ataque. Como en el juego real.
+**3. Subir Nivel:** Esto sirve para sumar 1 nivel, lo que nos haría llegar al nivel 36 para evolucionar. Además nos sumaría estadísticas en los atributos vida y ataque. Como en el juego real.
 
-4. Evolucionar: En este método el pokemon pasaría a ser un nuevo personaje ya que se le cambia el nombre (simulando una evolución), y al evolucionar sería un pokemon más fuerte aún por lo que se le sumarían aún más estadísticas.  
+**4. Evolucionar:** En este método el pokemon pasaría a ser un nuevo personaje ya que se le cambia el nombre (simulando una evolución), y al evolucionar sería un pokemon más fuerte aún por lo que se le sumarían aún más estadísticas.  
 
 Finalmente se simula el combate usando un ciclo, con el comando "while" el cual se repite hasta que la vida de un pokemon llegue a 0 lo que significaría que el pokemon ha sido derrotado por lo tanto el ciclo se terminaría con el comando "break". Pero es importante recalcar que el ciclo revisa en cada turno si la vida del personaje ha llegado a 0, si no es así se pasaría al siguiente turno, hasta que la vida de algún pokemon llegue a 0.
 
