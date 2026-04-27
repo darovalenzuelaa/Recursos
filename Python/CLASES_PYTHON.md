@@ -126,7 +126,7 @@ Se le podría poner que el daño mínimo sea 1, ya que sino se crearía un bucle
 4. Nivel: El subir nivel tras ganar el combate hará que el pokemon evolucione, y el nivel esta puesto al nivel 35, por lo tanto al igual que en el juego real, el pokemon Combusken evolucionará al nivel 36 a Blaziken.
 5. Experiencia: Es el atributo que nos permite subir de nivel y además es un atributo privado. Y funciona a través de un getter y un setter.
 
-**En lo que respecta a los métodos el primero es el de:**
+**En lo que respecta a los métodos el primero estos son:**
 
 1. Atacar: Aquí se define el pokemon que ataca y el pokemon que recibe el daño (self, enemigo) respectivamente. Basícamente se le resta a la vida el daño de ataque del rival. Y se usa un if para que la vida llegue a 0 y no quede en numeros negativos. Luego simplemente se verbaliza lo ocurrido a través de un print.
 
