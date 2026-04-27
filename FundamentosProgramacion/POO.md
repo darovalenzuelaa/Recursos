@@ -1,6 +1,6 @@
 <https://youtu.be/SI7O81GMG2A?si=TWuWMHpnulUFyFk_>
 
-**Redacte con sus palabras lo que entendió y lo que no entendió sobre los Pilares de POO: Abstracción, Encapsulamiento, Herencia, Polimorfismo **
+**Redacte con sus palabras lo que entendió y lo que no entendió sobre los Pilares de POO: Abstracción, Encapsulamiento, Herencia, Polimorfismo**
 
 ## Pilares POO
 
