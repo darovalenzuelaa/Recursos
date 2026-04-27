@@ -26,7 +26,7 @@ class Personaje:
         self.vida = vida
 ```
         
-que es def?  es un comando para crear funciones
+**3. ¿Qué es def?: Es un comando que sirve para crear funciones**
 
 
 como accedo a un atributo del personaje? hay que crear la función con el comando self, luego los print con lo que se quiere mostrar y luego los atributos correspondientes. luego se escribe la función a través de la variable y luego se ejecutan todos los print dentro del método
@@ -35,7 +35,7 @@ como accedo a un atributo del personaje? hay que crear la función con el comand
         print(self.nombre, ":", sep="")
         print("·Fuerza:", self.fuerza)
         print("·Inteligencia:", self.inteligencia)
-        print("·Defensa:", self.defensa)
+        print("·Defensa:", self.defensa)  
         print("·Vida:", self.vida)
         
 ¿como accedo a un método de la clase personaje?
