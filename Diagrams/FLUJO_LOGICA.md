@@ -44,3 +44,7 @@ K -- No --> N[Sumar turno]
 N --> D
 ```
 
+## Prompt Utilizado para la generación del ejemplo de flujo"
+
+[prompt](prompt_flowchart.md)
+
