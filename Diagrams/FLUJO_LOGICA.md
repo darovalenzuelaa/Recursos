@@ -37,7 +37,6 @@ M1 -- Si --> M2[Subir nivel]
 M2 --> M3{Nivel 36}
 M3 -- Si --> M4[Evolucionar]
 M3 -- No --> Z
-```
 
 M1 -- No --> Z
 
