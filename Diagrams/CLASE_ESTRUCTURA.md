@@ -7,7 +7,7 @@ class Pokemon {
   +nivel : int
   -experiencia : int
 
-  +Pokemon(nombre : string, vida : int, ataque : int)
+  +PokemonStats(nombre : string, vida : int, ataque : int)
   +get_experiencia() : int
   +set_experiencia(nueva_exp : int) : void
   +atacar(enemigo : Pokemon) : void
