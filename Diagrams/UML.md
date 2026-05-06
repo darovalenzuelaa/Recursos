@@ -1,1 +1,3 @@
+## ¿Qué es uml y para qué sirve? 
 
+Es un lenguaje visual universal el cual se puede entender en cualquier parte del mundo ya que no depende del idioma sino de lo visual lo que lo hace entendible para cualquier lugar o persona del mundo independiente del lenguaje. Por lo tanto UML es un lenguaje para crear diagramas específicamente para especificar softwares. Debido a la complejidad que representan los softwares, este lenguaje nos sirve para representarlos a través de diagramas lo que facilita de gran manera el entendimiento del mismo. Y entender o saber usar este complemento nos sería muy útil puesto que su uso es universal y aporta de gran manera el desarrollo o entendimiento de un software, por lo tanto conocerlo es un aporte para nuestro conocimiento.
