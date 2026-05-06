@@ -17,3 +17,7 @@ class Pokemon {
   +esta_derrotado() : bool
 }
 ```
+
+
+que entendió sobre las relaciones? 
+¿su clase de ejemplo que creo tiene relaciones con otras clases? ¿por qué? fundamente (min 5 líneas máx. 30).
