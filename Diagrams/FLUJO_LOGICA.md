@@ -9,39 +9,35 @@ B --> C[turno = 1]
 C --> D{Ambos vivos}
 
 D -- No --> Z[Fin]
+
 D -- Si --> E[Mostrar turno]
 
-E --> F[Pokemon1 ataca]
-F --> G{Pokemon2 derrotado}
+E --> F[pokemon1 ataca]
+F --> G{pokemon2 derrotado}
 
 G -- Si --> H[Mostrar derrota]
-H --> I[Pokemon1 gana experiencia]
-I --> I1{Experiencia suficiente}
+H --> I[Ganador gana experiencia]
 
-I1 -- Si --> I2[Subir nivel]
-I2 --> I3{Nivel 36}
-I3 -- Si --> I4[Evolucionar]
-I3 -- No --> Z
+G -- No --> J[pokemon2 ataca]
 
-I1 -- No --> Z
+J --> K{pokemon1 derrotado}
 
-G -- No --> J[Pokemon2 ataca]
+K -- Si --> H
 
-J --> K{Pokemon1 derrotado}
+K -- No --> L[turno = turno + 1]
+L --> D
 
-K -- Si --> L[Mostrar derrota]
-L --> M[Pokemon2 gana experiencia]
-M --> M1{Experiencia suficiente}
+I --> M{Experiencia suficiente}
 
-M1 -- Si --> M2[Subir nivel]
-M2 --> M3{Nivel 36}
-M3 -- Si --> M4[Evolucionar]
-M3 -- No --> Z
+M -- Si --> N[Subir nivel]
+M -- No --> Z
 
-M1 -- No --> Z
+N --> O{Nivel 36}
 
-K -- No --> N[Sumar turno]
-N --> D
+O -- Si --> P[Evolucionar]
+O -- No --> Z
+
+P --> Z
 ```
 
 ## Prompt Utilizado para la generación del ejemplo de flujo"
