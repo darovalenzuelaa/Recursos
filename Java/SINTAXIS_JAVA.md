@@ -1,4 +1,6 @@
-hola mundo
+## Texto, Números, Booleanos, Listas, Objetos
+
+
 public class Main {
     public static void main(String[] args) {
         // Este es un comentario
