@@ -36,14 +36,14 @@ Existen distintos tipos de relaciones:
 
 ----------------------------
 
-## **¿Su clase de ejemplo que creó tiene relaciones con otras clases? ¿por qué?**
+## **¿Su clase de ejemplo que creó tiene relaciones con otras clases? ¿Por qué?**
 
 Mi class Pokemon sí tiene relaciones, por ejemplo en:
 
 ```python
 def atacar(self, enemigo):
 ```
-Esto hace que el pokemon "self" ataque al otro pokemon "enemigo" lo cual sería un ejemplo de **asociación** ya que un objeto interactúa con otro.
+Esto hace que el pokemon (self) ataque al otro pokemon (enemigo) lo cual sería un ejemplo de **asociación** ya que un objeto interactúa con otro.
 
 También en mi código existe una relación de **encapsulamiento**:
 
