@@ -34,4 +34,26 @@ Existen distintos tipos de relaciones:
 
 **6. Multiplicidad:** Permite definir recepciones numéricas en las relaciones lo que nos permite definir cantidades según corresponda el caso.
 
-¿su clase de ejemplo que creo tiene relaciones con otras clases? ¿por qué? fundamente (min 5 líneas máx. 30).
+----------------------------
+
+## **¿Su clase de ejemplo que creó tiene relaciones con otras clases? ¿por qué?**
+
+Mi class Pokemon sí tiene relaciones, por ejemplo en:
+
+```python
+def atacar(self, enemigo):
+```
+Esto hace que el pokemon "self" ataque al otro pokemon "enemigo" lo cual sería un ejemplo de **asociación** ya que un objeto interactúa con otro.
+
+También en mi código existe una relación de **encapsulamiento**:
+
+```python
+self.__experiencia
+```
+Lo cual significa que la experiencia es privada, es decir, el objeto está protegido. Y se puede acceder a ellas de la siguiente forma:
+
+```python
+get_experiencia()
+set_experiencia()
+```
+Por lo tanto, estas relaciones nos sirven para acceder o proteger atributos además de coordinar su acceso a través de los métodos. Gracias a esto se puede mantener una estructura en el código para su buen funcionamiento.
