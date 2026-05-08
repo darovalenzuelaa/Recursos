@@ -138,6 +138,13 @@ public class Main {
     }
 }
 ```
+----------------------
+
+## Módulos.
+
+Los módulos nos permiten dividir un código entre muchos archivos lo que nos permite organizarnos y trabajar mejor con ellos además de crear un objeto a partir de la clase.
+
+**Javac:** Este comando compila la clase que se indique por lo que crea una nueva clase, lo que significa que compila una clase que nos sirve para correr la clase externa en el archivo main. En resumen así es como se crean las bibliotecas.
 
 
 
