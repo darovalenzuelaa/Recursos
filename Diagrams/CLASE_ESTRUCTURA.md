@@ -56,4 +56,4 @@ Lo cual significa que la experiencia es privada, es decir, el objeto está prote
 get_experiencia()
 set_experiencia()
 ```
-Por lo tanto, estas relaciones nos sirven para acceder o proteger atributos además de coordinar su acceso a través de los métodos. Gracias a esto se puede mantener una estructura en el código para su buen funcionamiento.
+Por lo tanto, estas relaciones nos sirven para acceder o proteger atributos además de coordinar su acceso a través de los métodos. Gracias a esto se puede mantener una estructura en el código para su buen funcionamiento, sobre todo en este código en el cual de la clase provienen dos personajes diferentes que pueden obtener atributos diferentes según se va desarrollando su funcionamiento.
