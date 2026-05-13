@@ -14,12 +14,30 @@
 
 **Ejemplo Base de Datos**
 
-Clase: Mascota
+**Clase:** Mascota
 
--Nombre: **String**
+**-Nombre:** *String*
 
--Raza: **String**
+**-Raza:** *String*
 
--Género: **String**
+**-Género:** *String*
 
--Edad: **Int**
+**-Edad:** *Int*
+
+---------------------------
+
+**Tabla**
+
+|ID|Nombre|Raza   |Género |Fecha de Nacimiento|Especie|
+|1 |Carlos|Dálmata|M      |9 Marzo 2016       |Perro  |
+|2 |Perla |Poodle |F      |13 Abril 2015      |Perro  |
+|3 |Pepe  |Iguen  |M      |20 Noviembre       |Iguana  |
+
+
+
+
+
+
+
+
+
