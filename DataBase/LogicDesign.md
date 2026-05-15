@@ -80,6 +80,10 @@ CREATE TABLE estudiantes (
 );
 ```
 
+**El "Dato" vs. "Realidad": En la pizarra se propuso usar `FLOAT` con el valor `0.5` para representar a un cachorro de 6 meses. Si el sistema debe enviar un saludo automático de "Feliz Cumpleaños" cada año, ¿qué problema técnico enfrentaríamos si solo guardamos `0.5` y no la fecha de nacimiento (`DATE`)?**
+
+Si solo guardamos el "0,5" lo único que sabríamos es que el cachorro tiene medio año de vida y no su fecha exacta de nacimiento. Por lo tanto el sistema no podría reconocer cuando enviar el mensaje puesto que no tiene la información necesaria para funcionar correctamente. Por lo tanto si usamos el "date" el sistema sabría la fecha exacta y podría realizar el saludo correctamente.
+
 
 
 
